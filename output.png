@@ -1,0 +1,55 @@
+
+   EmployeeID  Age  Gender Department            JobRole  MonthlyIncome OverTime  YearsAtCompany  JobSatisfaction Attrition
+0           1   25    Male      Sales    Sales Executive          32000      Yes               2                2       Yes
+1           2   31  Female         HR         HR Manager          45000       No               5                4        No
+2           3   28    Male         IT       Data Analyst          52000      Yes               3                3        No
+3           4   41  Female    Finance         Accountant          60000       No              10                4        No
+4           5   36    Male         IT  Software Engineer          70000      Yes               7                2       Yes
+<class 'pandas.DataFrame'>
+RangeIndex: 10 entries, 0 to 9
+Data columns (total 10 columns):
+ #   Column           Non-Null Count  Dtype
+---  ------           --------------  -----
+ 0   EmployeeID       10 non-null     int64
+ 1   Age              10 non-null     int64
+ 2   Gender           10 non-null     str  
+ 3   Department       10 non-null     str  
+ 4   JobRole          10 non-null     str  
+ 5   MonthlyIncome    10 non-null     int64
+ 6   OverTime         10 non-null     str  
+ 7   YearsAtCompany   10 non-null     int64
+ 8   JobSatisfaction  10 non-null     int64
+ 9   Attrition        10 non-null     str  
+dtypes: int64(5), str(5)
+memory usage: 932.0 bytes
+None
+       EmployeeID        Age  MonthlyIncome  YearsAtCompany  JobSatisfaction
+count    10.00000  10.000000      10.000000       10.000000        10.000000
+mean      5.50000  33.400000   53500.000000        6.000000         3.000000
+std       3.02765   6.636599   15378.556499        3.464102         1.247219
+min       1.00000  25.000000   32000.000000        2.000000         1.000000
+25%       3.25000  28.250000   45750.000000        3.250000         2.000000
+50%       5.50000  32.000000   51000.000000        5.500000         3.000000
+75%       7.75000  38.250000   58750.000000        8.500000         4.000000
+max      10.00000  45.000000   85000.000000       12.000000         5.000000
+EmployeeID         0
+Age                0
+Gender             0
+Department         0
+JobRole            0
+MonthlyIncome      0
+OverTime           0
+YearsAtCompany     0
+JobSatisfaction    0
+Attrition          0
+dtype: int64
+Attrition
+No     6
+Yes    4
+Name: count, dtype: int64
+Attrition    No  Yes
+Department          
+Finance     2.0  NaN
+HR          1.0  1.0
+IT          2.0  2.0
+Sales       1.0  1.0
