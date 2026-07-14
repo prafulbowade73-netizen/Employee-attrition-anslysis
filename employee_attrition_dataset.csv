@@ -1,0 +1,11 @@
+EmployeeID,Age,Gender,Department,JobRole,MonthlyIncome,OverTime,YearsAtCompany,JobSatisfaction,Attrition
+1,25,Male,Sales,Sales Executive,32000,Yes,2,2,Yes
+2,31,Female,HR,HR Manager,45000,No,5,4,No
+3,28,Male,IT,Data Analyst,52000,Yes,3,3,No
+4,41,Female,Finance,Accountant,60000,No,10,4,No
+5,36,Male,IT,Software Engineer,70000,Yes,7,2,Yes
+6,29,Female,Sales,Sales Executive,38000,No,4,3,No
+7,45,Male,HR,Recruiter,48000,Yes,12,1,Yes
+8,33,Female,IT,Data Analyst,55000,No,6,5,No
+9,27,Male,Finance,Financial Analyst,50000,No,2,4,No
+10,39,Female,IT,Project Manager,85000,Yes,9,2,Yes
