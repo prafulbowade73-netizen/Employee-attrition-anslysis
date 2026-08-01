@@ -4,6 +4,7 @@
 - Python
 - Pandas
 - Matplotlib
+- Numpy
 
 ## Objective
 Analyze employee attrition and identify trends.
