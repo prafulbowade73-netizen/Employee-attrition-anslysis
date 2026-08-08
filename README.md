@@ -4,7 +4,7 @@
 - Python
 - Pandas
 - Matplotlib
-- seabron
+- seaborn
 - Numpy
 
 ## Objective
