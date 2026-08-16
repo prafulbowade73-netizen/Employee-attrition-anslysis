@@ -1,0 +1,20 @@
+Employee-attrition-analysis/
+│
+├── data/
+│   └── employee_attrition_dataset.csv
+│
+├── notebooks/
+│   └── employee_attrition_analysis.ipynb
+│
+├── src/
+│   └── employee-attrition-analysis.py
+│
+├── images/
+│   ├── attrition-chart.png
+│   ├── correlation-heatmap.png
+│   └── dashboard.png
+│
+├── requirements.txt
+├── README.md
+├── LICENSE
+└── .gitignore
